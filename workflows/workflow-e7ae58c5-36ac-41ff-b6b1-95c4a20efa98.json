@@ -1,0 +1,81 @@
+{
+  "id": "e7ae58c5-36ac-41ff-b6b1-95c4a20efa98",
+  "name": "Unnamed Workflow",
+  "type": "workflow",
+  "data": {
+    "annotation_reply": {
+      "enabled": false
+    },
+    "file_upload": {
+      "allowed_file_extensions": [
+        ".JPG",
+        ".JPEG",
+        ".PNG",
+        ".GIF",
+        ".WEBP",
+        ".SVG"
+      ],
+      "allowed_file_types": [
+        "image"
+      ],
+      "allowed_file_upload_methods": [
+        "local_file",
+        "remote_url"
+      ],
+      "enabled": false,
+      "fileUploadConfig": {
+        "audio_file_size_limit": 50,
+        "batch_count_limit": 5,
+        "file_size_limit": 15,
+        "image_file_size_limit": 10,
+        "video_file_size_limit": 100,
+        "workflow_file_upload_limit": 10
+      },
+      "image": {
+        "enabled": false,
+        "number_limits": 3,
+        "transfer_methods": [
+          "local_file",
+          "remote_url"
+        ]
+      },
+      "number_limits": 3
+    },
+    "more_like_this": {
+      "enabled": false
+    },
+    "opening_statement": "",
+    "retriever_resource": {
+      "enabled": true
+    },
+    "sensitive_word_avoidance": {
+      "enabled": false
+    },
+    "speech_to_text": {
+      "enabled": false
+    },
+    "suggested_questions": [],
+    "suggested_questions_after_answer": {
+      "enabled": false
+    },
+    "system_parameters": {
+      "audio_file_size_limit": 50,
+      "file_size_limit": 15,
+      "image_file_size_limit": 10,
+      "video_file_size_limit": 100,
+      "workflow_file_upload_limit": 10
+    },
+    "text_to_speech": {
+      "enabled": false,
+      "language": "",
+      "voice": ""
+    },
+    "user_input_form": []
+  },
+  "metadata": {
+    "exported_by": "dify-git-plugin",
+    "workspace_id": "default"
+  },
+  "exported_at": "2025-12-02 11:40:59.089372",
+  "version": "1.0"
+}
